@@ -4946,6 +4946,10 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
 
+klinecharts@^5.6.0:
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/klinecharts/-/klinecharts-5.6.0.tgz#95a6e0adac1ea64e46874a62006d67e3652c18c1"
+
 labeled-stream-splicer@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/labeled-stream-splicer/-/labeled-stream-splicer-2.0.2.tgz#42a41a16abcd46fd046306cf4f2c3576fffb1c21"

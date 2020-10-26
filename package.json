@@ -16,6 +16,7 @@
     "cross-env": "^6.0.3",
     "element-ui": "^2.4.5",
     "file-saver": "^2.0.2",
+    "klinecharts": "^5.6.0",
     "nerve-sdk-js": "^1.0.2",
     "shelljs": "^0.8.3",
     "vue": "^2.6.10",
