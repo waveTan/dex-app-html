@@ -24,16 +24,15 @@ export const DEFAULT_CONFIG = {
 //跨链资产信息 chainId、assetId
 export const CROSS_INFO = {chainId: 1, assetId: 1};
 //dex 网络api
-export const DEX_URL = IS_DEV ? '/' : 'http://pre.nervedex.com/';
+export const DEX_URL = IS_DEV ? 'http://pre.nervedex.com/' : 'http://pre.nervedex.com/';
 //websocket api
 export const WEBSOCKET_URL = () => {
   let newUrl = '';
-  let {host, protocol} = window.location;
-  const wsProtocol = protocol === 'http:' ? 'ws:' : 'wss:';
+  //let {host, protocol} = window.location;
+  //const wsProtocol = protocol === 'http:' ? 'ws:' : 'wss:';
   if (IS_DEV) {
-    // let newHost = window.location.host;
-    // newUrl = 'ws://' + newHost + '/ws';
-    newUrl = wsProtocol + '//' + host + '/ws';
+    //newUrl = wsProtocol + '//' + host + '/ws';
+    newUrl = 'ws://pre.nervedex.com/ws';
   } else {
     newUrl = 'ws://pre.nervedex.com/ws';
   }

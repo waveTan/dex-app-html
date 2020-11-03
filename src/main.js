@@ -6,6 +6,9 @@ import i18n from './i18n'
 import {post} from './api/https'
 import {dexGet, dexPost} from './api/dexHttps'
 
+import {Tabbar, TabbarItem,Lazyload,Swipe, SwipeItem } from 'vant';
+Vue.use(Tabbar, TabbarItem,Lazyload,Swipe,SwipeItem);
+
 Vue.config.productionTip = false;
 //定义全局变量
 Vue.prototype.$post = post;
